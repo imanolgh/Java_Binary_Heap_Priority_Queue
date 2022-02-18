@@ -1,0 +1,73 @@
+
+
+.goodText {
+	text-anchor: middle;
+	alignment-baseline: middle;
+	lengthAdjust: spacingAndGlyphs;
+
+	fill: black;
+}
+
+.badText {
+	text-anchor: middle;
+	alignment-baseline: middle;
+	lengthAdjust: spacingAndGlyphs;
+
+	font-weight: bold;
+	fill: red;
+}
+
+.nullText {
+	text-anchor: middle;
+	alignment-baseline: middle;
+	lengthAdjust: spacingAndGlyphs;
+
+	font-weight: bold;
+	fill: black;
+}
+
+.node {
+	fill: white;
+	stroke: black;
+	stroke-width: 2;
+}
+
+.badNode {
+	fill: yellow;
+	stroke: black;
+	stroke-width: 2;
+}
+
+.missingNode {
+	stroke-dasharray: 3 3;
+}
+
+.treeLine {
+	stroke: black;
+	stroke-width: 2;
+}
+
+.badLine {
+	stroke: red;
+	stroke-width: 4;
+}
+
+div.legend {
+    display: table;
+  	border: 2px solid black;
+  	border-radius: 10px;
+    text-align: center;
+}
+
+div.legend th {
+    background-color: #cccccc; 
+    padding: 10px;
+    
+}
+
+div.legend td {
+    background-color: #eeeeee; 
+    text-align: center;
+    padding: 10px;
+}
+
